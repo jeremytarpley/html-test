@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HTML5 Kitchen Sink</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/style.css" type="text/css" media="all">
+</head>
+
+<body style="margin:10px;">
+  <header role="banner">
+    <h1>Common HTML Elements, an HTML5 Kitchen Sink</h1>
+    <small>Jump to: <a href="#headings">Headings</a> | <a href="#sections">Sections</a> | <a
+        href="#phrasing">Phrasing</a> | <a href="#palpable">Palpable Content</a> | <a href="#embeds">Embeds</a> | <a
+        href="#forms">Forms</a> | <a href="#tables">Tables</a> </small> <br><br>
+    <p>This section serves as the <code>header</code>.</p>
+  </header>
+  <hr>
+  <main>
+    <h2>HTML Elements for Testing</h2>
+    <div class="html-content">
+      <p>This is a test page filled with common HTML elements to be used to provide visual feedback for building CSS
+        systems and frameworks.</p>
+      <p>This page is for testing our theme’s <abbr
+          title="Cascading Style Sheet, the code used to control the site's design.">CSS</abbr>. It starts with simple
+        examples of the H1—H6 heading elements followed by headings used in other ways.</p>
+      <nav role="navigation">
+        <ul>
+          <li><a href="#text-test">Text</a>
+            <ul>
+              <li><a href="#text__headings">Headings</a></li>
+              <li><a href="#text__paragraphs">Paragraphs</a></li>
+              <li><a href="#text__blockquotes">Blockquotes</a></li>
+              <li><a href="#text__lists">Lists</a></li>
+              <li><a href="#text__hr">Horizontal rules</a></li>
+              <li><a href="#text__tables">Tabular data</a></li>
+              <li><a href="#text__code">Code</a></li>
+              <li><a href="#text__inline">Inline elements</a></li>
+            </ul>
+          </li>
+          <li><a href="#embedded-test">Embedded content</a>
+            <ul>
+              <li><a href="#embedded__images">Images</a></li>
+              <li><a href="#embedded__audio">Audio</a></li>
+              <li><a href="#embedded__video">Video</a></li>
+              <li><a href="#embedded__canvas">Canvas</a></li>
+              <li><a href="#embedded__meter">Meter</a></li>
+              <li><a href="#embedded__progress">Progress</a></li>
+              <li><a href="#embedded__svg">Inline SVG</a></li>
+              <li><a href="#embedded__iframe">IFrames</a></li>
+            </ul>
+          </li>
+          <li><a href="#forms-test">Form elements</a>
+            <ul>
+              <li><a href="#forms__input">Input fields</a></li>
+              <li><a href="#forms__select">Select menus</a></li>
+              <li><a href="#forms__checkbox">Checkboxes</a></li>
+              <li><a href="#forms__radio">Radio buttons</a></li>
+              <li><a href="#forms__textareas">Textareas</a></li>
+              <li><a href="#forms__html5">HTML5 inputs</a></li>
+              <li><a href="#forms__action">Action buttons</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <section id="text-test">
+        <header>
+          <h2>Text Elements</h2>
+        </header>
+        <p>Hard programming problems can really draw us in. "The reason we're engaged by them is that they're hard."
+          <q>There really is an art to coding. ...the act of solving a complex problem teaches the coder so much about
+            how to approach and solve the problem that it's really only after they finally have their program running
+            that they understand how it should have been done. ...Do it. Then do it better. Then do it
+            right.</q><cite>Steve Gibson and Alex Lindsay on approaching hard programming problems.</cite></p>
+        <p>Headings should provide a scannable outline of the page. Our readers should be able to skim the headings to
+          find the most important information on the page. For <abbr title="Search Engine Optimization">SEO</abbr> and
+          usability, headings should <a href="https://www.plainlanguage.gov/about/definitions/">use plain language</a>.
+          They should use words and phrases that our readers use when searching for our content.</p>
+        <hr>
+        <article id="text__headings">
+          <div>
+            <hr>
+            <p><mark>Single Line Heading Examples</mark></p>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <h2>Heading Level One, The Page Title</h2>
+            <p>For accessibility, the page title should be the only H1 on the page.</p>
+            <h2>Heading Level Two, First H2 After A Page Title</h2>
+            <p>The first heading in the content area of the page should be H2. The first heading two after the page
+              title has a smaller top margin.</p>
+            <h2>Heading Level Two</h2>
+            <p>It’s common for a page to have multiple H2s. They should form a scannable outline of the main topics on
+              the page. A heading two often has a larger top margin to separate the main topics of the page.</p>
+            <h3>Heading Level Three</h3>
+            <p>A heading three is a subtopic of heading two.</p>
+            <h4>Heading Level Four</h4>
+            <p>A heading four is a subtopic of heading three.</p>
+            <h5>Heading Level Five</h5>
+            <p>A heading five is uncommon. I’ve not seen a use-case for H5 on any OIT sites so far.</p>
+            <h6>Heading Level Six</h6>
+            <p>A heading six is very uncommon. I have not needed to use a heading six on an academic website in my
+              career.</p>
+            <hr>
+            <p><mark>Multiline Heading Examples</mark></p>
+            <h1>Heading Level One, Some Page Titles Are Longer And Can Wrap To Two Lines</h1>
+            <h2>Heading Level Two, The First Content Heading On Each Page, Most Common Heading</h2>
+            <h3>Heading Level Three, A Subtopic of a Heading Level Two; Adding More Text To Make This Span Multiple
+              Lines For Testing</h3>
+            <h4>Heading Level Four, A Subtopic of a Heading Level Three — Uncommon; Adding More Text To Make This Span
+              Multiple Lines For Testing</h4>
+            <h5>Heading Level 5, I’ve Not Seen A Use-case On OIT Sites For H5; Adding More Text To Make This Span
+              Multiple Lines For Testing</h5>
+            <h6>Heading Level 6, I’ve Not Come Across a Use-case for H6 in My Career; I propose banning it — Adding More
+              Text To Make This Span Multiple Lines For Testing</h6>
+            <hr>
+            <p><mark>Linked Heading Examples</mark></p>
+            <h2><a href="https://www.tamu.edu/">A Linked Heading Level Two</a></h2>
+            <h3><a href="https://www.tamu.edu/">A Linked Heading Level Three</a></h3>
+            <h4><a href="https://www.tamu.edu/">A Linked Heading Level Four</a></h4>
+            <h5><a href="https://www.tamu.edu/">A Linked Heading Level Five</a></h5>
+            <hr>
+            <p><mark>Headings Paired with Content</mark></p>
+            <h1>Heading Level One Page Title</h1>
+            <p>The page title should only be followed by a Heading level 2 or a paragraph. I think in the future, we
+              should add a standard option for a leade offering larger text that is not in a heading.</p>
+            <h1>Heading Level One Page Title</h1>
+            <h2>A Heading Level Two That Comes After The Page Title</h2>
+            <p>A paragraph that comes after a Heading Level Two that comes after the H1 page title. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Maecenas vel lectus ornare, sollicitudin libero dictum, ultricies
+              sapien. Proin varius elit non justo convallis, sed mollis diam ornare.</p>
+            <h2>Another Heading Level Two, The Second Major Topic On This Page</h2>
+            <p>A paragraph that comes after a Heading Level Two. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Maecenas vel lectus ornare, sollicitudin libero dictum, ultricies sapien. Proin varius elit non
+              justo convallis, sed mollis diam ornare.</p>
+            <h2>Heading Level Two</h2>
+            <p>A paragraph that comes after a Heading Level Two. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Maecenas vel lectus ornare, sollicitudin libero dictum, ultricies sapien. Proin varius elit non
+              justo convallis, sed mollis diam ornare.</p>
+            <h3>Heading Level Three</h3>
+            <p>A paragraph that comes after a Heading Level Three. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Maecenas vel lectus ornare, sollicitudin libero dictum, ultricies sapien. Proin varius elit non
+              justo convallis, sed mollis diam ornare.</p>
+            <h4>Heading Level Four</h4>
+            <p>A paragraph that comes after a Heading Level Four. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Maecenas vel lectus ornare, sollicitudin libero dictum, ultricies sapien. Proin varius elit non
+              justo convallis, sed mollis diam ornare.</p>
+            <h5>Heading Level 5</h5>
+            <p>A paragraph that comes after a Heading Level Four. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Maecenas vel lectus ornare, sollicitudin libero dictum, ultricies sapien. Proin varius elit non
+              justo convallis, sed mollis diam ornare.</p>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="text__paragraphs">
+          <header>
+            <h2>Paragraphs</h2>
+          </header>
+          <div>
+            <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit
+              of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more
+              sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of
+              formal writing, used to organize longer prose.</p>
+            <p>A few paragraphs of Lorem Ipsum dummy text with characters such as the mdash—several inline HTML elements
+              such as <strong>bold</strong> and <em>italic</em>. <a href="https://www.google.com/">Lorem ipsum</a> dolor
+              sit amet, consectetur adipiscing elit. <a href="https://www.google.com/">Nullam vulputate ullamcorper
+                cursus</a>. Morbi erat velit, ornare sit amet metus id, bibendum venenatis ante. Text with a super
+              script tag: 2<sup>nd</sup>. Aenean tincidunt elementum odio eu faucibus. <strong>Curabitur sit amet
+                lectus</strong> quis ante finibus mollis. Text with an <abbr title="abbreviation">abbr</abbr> tag for
+              abbreviations.</p>
+            <p>Here are some example dashes including mdash–and an ndash–and a hyphen - followed by test text with and
+              without spaces 979-123-4567, test mdash — with space, test ndash – with space.</p>
+            <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">HTML <q> element</q></a>
+              indicates that the enclosed text is a short inline quotation. <q>A short inline quotation Curabitur
+                commodo sagittis lacus at ullamcorper. Aliquam ligula nulla <sub>Text in a subscript tag</sub>, interdum
+                malesuada tempor tincidunt, faucibus eu eros.</q> Donec nec enim ut augue laoreet vulputate. <a
+                href="https://www.google.com/">Proin tincidunt lacus</a> eget lectus pharetra, sit amet ornare diam
+              volutpat.</p>
+            <p><em>The HTML <code>&lt;em&gt;</code> element marks text that has stress emphasis.</em></p>
+            <p><mark>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark">mark text element</a>
+                represents text that is marked or highlighted for <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark">reference or notation
+                </a>purposes.</mark></p>
+            <p>Some less common inline HTML elements. The <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite">HTML Citation element</a>
+              (<code>&lt;cite&gt;</code>) is used to describe a reference to a cited creative work, and must include the
+              title of that work. <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen
+                  Eighty-Four</a></cite> by George Orwell (Part 1, Chapter 1). The <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd">HTML Keyboard Input element
+                (<code>&lt;kbd&gt;</code>)</a> represents a span of inline text denoting textual user input from a
+              keyboard, voice input, or any other text entry device. <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+              to re-render this page. The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del">HTML
+                <code>&lt;del&gt;</code> element</a> represents a range of text that has been deleted from a document.
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins">The <code>&lt;ins&gt;</code>
+                element</a> represents a range of text that has been added to a document. There is <del>nothing</del>
+              <ins>no code</ins> either good or bad, but <del>thinking</del> <ins>running it</ins> makes it so. The <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time">HTML <code>&lt;time&gt;</code>
+                element represents a specific period in time</a>. It may include the datetime attribute to translate
+              dates into machine-readable format, allowing for better search engine results or custom features such as
+              reminders. The conference starts at <time datetime="13:00">1:00 p.m.</time>, the Keynote will be an <time
+                datetime="PT1H30M">hour and a half</time>.</p>
+            <p><small><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small">The HTML
+                  <code>&lt;small&gt;</code> element</a> represents side-comments and small print, such as copyright and
+                legal text, independent of its styled presentation. There are additional but uncommon inline HTML
+                elements.</small></p>
+            <h2>Block Quote</h2>
+            <blockquote>
+              <p>A Block Quote. The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">HTML
+                </a> <code>&lt;blockquote&gt;</code> Element (or HTML Block Quotation Element) indicates that the
+                enclosed text is an extended quotation.</p>
+            </blockquote>
+            <h2>A Horizontal Rule</h2>
+            <p><span class="seoSummary">The <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr"><strong>HTML
+                    <code>&lt;hr&gt;</code> element</strong></a> represents a thematic break between paragraph-level
+                elements:</span></p>
+            <hr>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="text__misc">
+          <header>
+            <h2>Misc Text Tests</h2>
+          </header>
+          <div>
+            <h3>CSS-based hyphenation</h3>
+            <p style="hyphens: auto; max-width: 20rem;">Until recently the great majority of naturalists believed that
+              species were immutable productions, and had been separately created. This view has been ably maintained by
+              many authors.</p>
+            <h3>Character test</h3>
+            <p>The following table has some sample characters with annotations. If the browser�s default font does not
+              contain all of them, they may get displayed using backup fonts. This may cause stylistic differences, but
+              it should not prevent the characters from being displayed at all.</p>
+            <table>
+              <tbody>
+                <tr>
+                  <th>Char.</th>
+                  <th>Explanation</th>
+                  <th>Notes</th>
+                </tr>
+                <tr>
+                  <td>�</td>
+                  <td>e with circumflex</td>
+                  <td>Latin 1 character, should be ok</td>
+                </tr>
+                <tr>
+                  <td>�</td>
+                  <td>em dash</td>
+                  <td>Windows Latin 1 character, should be ok, too</td>
+                </tr>
+                <tr>
+                  <td>Ā</td>
+                  <td>A with macron (line above)</td>
+                  <td>Latin Extended-A character, not present in all fonts</td>
+                </tr>
+                <tr>
+                  <td>Ω</td>
+                  <td>capital omega</td>
+                  <td>A Greek letter</td>
+                </tr>
+                <tr>
+                  <td>−</td>
+                  <td>minus sign</td>
+                  <td>Unicode minus</td>
+                </tr>
+                <tr>
+                  <td>⌀</td>
+                  <td>diameter sign</td>
+                  <td>relatively rare in fonts</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="text__blockquotes">
+          <header>
+            <h2>Blockquotes</h2>
+          </header>
+          <div>
+            <blockquote>
+              <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document,
+                that is set off from the main text as a paragraph, or block of text.</p>
+              <p>It is typically distinguished visually using indentation and a different typeface or smaller size
+                quotation. It may or may not include a citation, usually placed at the bottom.</p>
+              <cite><a href="#!">Said no one, ever.</a></cite>
+            </blockquote>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="text__lists">
+          <header>
+            <h2>List Types, Unordered, Ordered, Definition</h2>
+          </header>
+          <div>
+            <h3>An Unordered List</h3>
+            <ul>
+              <li>Screen 18 (Banks and GLs by account controls)</li>
+              <li>Screen 19 (SLs by budget pool and object code)</li>
+              <li>Screen 69 (SAs by budget pool and object code)
+                <ul>
+                  <li>Options:
+                    <ul>
+                      <li>Change FY</li>
+                      <li>Change thru month</li>
+                      <li>Change year type
+                        <ul>
+                          <li>FY – fiscal year (default)</li>
+                          <li>PY – project year</li>
+                          <li>IN- Inception to date</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>Can only view FY by changing the overall FY at the top</li>
+                  <li>Download to Excel available</li>
+                </ul>
+              </li>
+              <li>FRS / Account / Search (Banks, GLs, SLs&nbsp; and SAs)</li>
+              <li>Search by:</li>
+              <li>Department / subdepartment</li>
+            </ul>
+            <h3>Menu List</h3>
+            <p>The <code>&lt;menu&gt;</code> and <a href="/en-US/docs/Web/HTML/Element/ul"><code>&lt;ul&gt;</code></a>
+              elements both represent an unordered list of items. The key difference is that <a
+                href="/en-US/docs/Web/HTML/Element/ul"><code>&lt;ul&gt;</code></a> primarily contains items for display,
+              while <code>&lt;menu&gt;</code> was intended for interactive items. The related <a
+                href="/en-US/docs/Web/HTML/Element/menuitem"><code>&lt;menuitem&gt;</code></a> element has been
+              deprecated.</p>
+            <menu>
+              <li><button onclick="copy()">Copy</button></li>
+              <li><button onclick="cut()">Cut</button></li>
+              <li><button onclick="paste()">Paste</button></li>
+            </menu>
+            <h3>An Ordered List</h3>
+            <ol>
+              <li>Screen 18 (Banks and GLs by account controls)</li>
+              <li>Screen 19 (SLs by budget pool and object code)</li>
+              <li>Screen 69 (SAs by budget pool and object code)
+                <ol>
+                  <li>Options:
+                    <ol>
+                      <li>Change FY</li>
+                      <li>Change thru month</li>
+                      <li>Change year type
+                        <ol>
+                          <li>FY – fiscal year (default)</li>
+                          <li>PY – project year</li>
+                          <li>IN- Inception to date</li>
+                        </ol>
+                      </li>
+                    </ol>
+                  </li>
+                  <li>Can only view FY by changing the overall FY at the top</li>
+                  <li>Download to Excel available</li>
+                </ol>
+              </li>
+              <li>FRS / Account / Search (Banks, GLs, SLs and SAs)</li>
+              <li>Search by:</li>
+              <li>Department / subdepartment</li>
+            </ol>
+            <h3>A Description List</h3>
+            <p>The <strong>HTML <code>&lt;dl&gt;</code></strong> element represents a <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">description list</a>. The element
+              encloses a list of groups of terms (specified using the <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt"><code>&lt;dt&gt;</code></a> element)
+              and descriptions (provided by <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd"><code>&lt;dd&gt;</code></a>
+              elements). Common uses for this element are to implement a glossary or to display metadata.</p>
+            <dl>
+              <dt>Cash disbursement</dt>
+              <dd>A non-vouchered payment for goods received, services rendered, reduction of debt or purchase of other
+                assets.</dd>
+              <dt>Cash receipt</dt>
+              <dd>Cash received from cash sales, collections on accounts receivable and sale of other assets.</dd>
+              <dt>Chart of accounts (COA)</dt>
+              <dd>A listing at the six-digit level of all account numbers in FAMIS. The COA can define accounts at the
+                10-digit level also.</dd>
+              <dt>Default mandatory</dt>
+              <dd>A flag indicating whether the transfer is mandatory.</dd>
+              <dd>If no value is entered in the detail lines for this field, the transfer will be flagged with the
+                default value after pressing Enter.</dd>
+            </dl>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="text__hr">
+          <header>
+            <h2>Horizontal rules</h2>
+          </header>
+          <div>
+            <hr>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="text__tables">
+          <header>
+            <h2>Tabular data</h2>
+          </header>
+          <table>
+            <caption>Table Caption</caption>
+            <thead>
+              <tr>
+                <th>Table Heading 1</th>
+                <th>Table Heading 2</th>
+                <th>Table Heading 3</th>
+                <th>Table Heading 4</th>
+                <th>Table Heading 5</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <th>Table Footer 1</th>
+                <th>Table Footer 2</th>
+                <th>Table Footer 3</th>
+                <th>Table Footer 4</th>
+                <th>Table Footer 5</th>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td>Table Cell 1</td>
+                <td>Table Cell 2</td>
+                <td>Table Cell 3</td>
+                <td>Table Cell 4</td>
+                <td>Table Cell 5</td>
+              </tr>
+              <tr>
+                <td>Table Cell 1</td>
+                <td>Table Cell 2</td>
+                <td>Table Cell 3</td>
+                <td>Table Cell 4</td>
+                <td>Table Cell 5</td>
+              </tr>
+              <tr>
+                <td>Table Cell 1</td>
+                <td>Table Cell 2</td>
+                <td>Table Cell 3</td>
+                <td>Table Cell 4</td>
+                <td>Table Cell 5</td>
+              </tr>
+              <tr>
+                <td>Table Cell 1</td>
+                <td>Table Cell 2</td>
+                <td>Table Cell 3</td>
+                <td>Table Cell 4</td>
+                <td>Table Cell 5</td>
+              </tr>
+            </tbody>
+          </table>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="text__code">
+          <header>
+            <h2>Code</h2>
+          </header>
+          <div>
+            <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
+            <p><strong>Inline code:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></p>
+            <p><strong>Sample output:</strong> <samp>This is sample output from a computer program.</samp></p>
+            <h2>Pre-formatted text</h2>
+            <pre>P R E F O R M A T T E D T E X T
+! " # $ % &amp; ' ( ) * + , - . / \
+0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+@ A B C D E F G H I J K L M N O
+P Q R S T U V W X Y Z [ \ ] ^ _
+` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~ &amp;
+</pre>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="text__inline">
+          <header>
+            <h2>Inline elements</h2>
+          </header>
+          <div>
+            <p><a href="#!">This is a text link</a>.</p>
+            <p><strong>Strong is used to indicate strong importance.</strong></p>
+            <p><em>This text has added emphasis.</em></p>
+            <p>The <strong>b element</strong> is stylistically different text from normal text, without any special
+              importance.</p>
+            <p>The <i>i element</i> is text that is offset from the normal text.</p>
+            <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.
+            </p>
+            <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
+            <p><span style="text-decoration: line-through;">overstruck</span> (<code>strike</code> html used; note:
+              <code>s</code> is a nonstandard synonym for <code>strike</code>)</p>
+            <p><s>This text has a strikethrough</s>.</p>
+            <p>Superscript<sup>®</sup>.</p>
+            <p>Subscript for things like H<sub>2</sub>O.</p>
+            <p><small>This small text is small for for fine print, etc.</small></p>
+            <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
+            <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline
+                quotation.</q></p>
+            <p><cite>This is a citation.</cite></p>
+            <p>The <dfn>dfn element</dfn> indicates a definition.</p>
+            <p>The <mark>mark element</mark> indicates a highlight.</p>
+            <p>The <var>variable element</var>, such as <var>x</var> = <var>y</var>.</p>
+            <p>The time element: <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></p>
+            <p><ins>inserted</ins> text (<code>ins</code> html tag)</p>
+            <p>To test how subscripts and superscripts (<code>sub</code> and <code>sup</code> markup) work inside
+              running text, we need some dummy text around constructs like x<sub>1</sub> and H<sub>2</sub>O (where
+              subscripts occur). So here is some fill so that you will (hopefully) see whether and how badly the
+              subscripts and superscripts mess up vertical spacing between lines. Now superscripts: M<sup>lle</sup>,
+              1<sup>st</sup>, and then some mathematical notations: e<sup>x</sup>, sin<sup>2</sup> <i>x</i>, and some
+              nested superscripts (exponents) too: e<sup>x<sup>2</sup></sup> and f(x)<sup>g(x)<sup>a+b+c</sup></sup>
+              (where 2 and a+b+c should appear as exponents of exponents).</p>
+            <p><tt>text in monospace font</tt> (<code>tt</code> markup used)</p>
+            <p>The command <code>cat</code> <var>filename</var> displays the file specified by the <var>filename</var>
+              (<code>var</code> markup used to indicate a word as a variable).</p>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+      </section>
+      <section id="embedded-test">
+        <header>
+          <h2>Embedded content</h2>
+        </header>
+        <article id="embedded__images">
+          <header>
+            <h2>Images</h2>
+          </header>
+          <div>
+            <h3>No <code>&lt;figure&gt;</code> element</h3>
+            <p><img alt="Image alt text" src="http://placekitten.com/480/480"></p>
+            <h3>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h3>
+            <figure><img alt="Image alt text" src="http://placekitten.com/420/420"></figure>
+            <h3>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h3>
+            <figure><img alt="Image alt text" src="http://placekitten.com/420/420">
+              <figcaption>Here is a caption for this image.</figcaption>
+            </figure>
+          </div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="embedded__audio">
+          <header>
+            <h2>Audio</h2>
+          </header>
+          <div><audio controls="controls">audio</audio></div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="embedded__video">
+          <header>
+            <h2>Video</h2>
+          </header>
+          <div><video controls="controls" height="150" width="300">video</video></div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="embedded__canvas">
+          <header>
+            <h2>Canvas</h2>
+          </header>
+          <div><canvas>canvas</canvas></div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="embedded__meter">
+          <header>
+            <h2>Meter</h2>
+          </header>
+          <div><meter max="10" min="0" value="2">2 out of 10</meter></div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="embedded__progress">
+          <header>
+            <h2>Progress</h2>
+          </header>
+          <div><progress>progress</progress></div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="embedded__svg">
+          <header>
+            <h2>Inline SVG</h2>
+          </header>
+          <div><svg height="100px" width="100px">
+              <circle cx="100" cy="100" fill="#1fa3ec" r="100"></circle>
+            </svg></div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+        <article id="embedded__iframe">
+          <header>
+            <h2>IFrame</h2>
+          </header>
+          <div><iframe height="500" src="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/"
+              width="300"></iframe></div>
+          <footer>
+            <p><a href="#top">[Top]</a></p>
+          </footer>
+        </article>
+      </section>
+      <section id="forms-test">
+        <header>
+          <h2>Form elements</h2>
+        </header>
+        <p>The form below uses most of the common HTML form elements.</p>
+        <form>Legend for the first fieldset
+          <p><label for="disabledInput1" id="disabledInputLabel1">Label tag for the disabled input below</label></p>
+          <p><input class="disabled" disabled="disabled" id="disabledInput" name="disabledInput1" readonly="readonly"
+              required="" type="text" value="This input is disabled"></p>
+          <div><label>Text</label><br> <input
+              style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII='); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"
+              type="text"></div>
+          <fieldset id="forms__input">
+            <legend>Input fields</legend>
+            <p><label for="input__text">Text Input</label> <input id="input__text" placeholder="Text Input" type="text">
+            </p>
+            <p><label for="input__password">Password</label> <input id="input__password"
+                placeholder="Type your Password" type="password"></p>
+            <p><label for="input__webaddress">Web Address</label> <input id="input__webaddress"
+                placeholder="http://yoursite.com" type="url"></p>
+            <p><label for="input__emailaddress">Email Address</label> <input id="input__emailaddress"
+                placeholder="name@email.com" type="email"></p>
+            <div data-lastpass-icon-root="true"
+              style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+            </div>
+            <p><label for="input__phone">Phone Number</label> <input id="input__phone" placeholder="(999) 999-9999"
+                type="tel"></p>
+            <p><label for="input__search">Search</label> <input id="input__search" placeholder="Enter Search Term"
+                type="search"></p>
+            <p><label for="input__text2">Number Input</label> <input id="input__text2" placeholder="Enter a Number"
+                type="number"></p>
+            <p><label class="error" for="input__text3">Error</label> <input class="is-error" id="input__text3"
+                placeholder="Text Input" type="text"></p>
+            <p><label class="valid" for="input__text4">Valid</label> <input class="is-valid" id="input__text4"
+                placeholder="Text Input" type="text"></p>
+          </fieldset>
+          <p><a href="#top">[Top]</a></p>
+          <fieldset id="forms__select">
+            <legend>Select menus</legend>
+            <p><label for="select">Select</label><select id="select">
+                <optgroup label="Option Group">
+                  <option>Option One</option>
+                  <option>Option Two</option>
+                  <option>Option Three</option>
+                </optgroup>
+              </select></p>
+          </fieldset>
+          <p><a href="#top">[Top]</a></p>
+          <fieldset id="forms__checkbox">
+            <legend>Checkboxes</legend>
+            <ul class="list list--bare">
+              <li><label for="checkbox1"><input checked="checked" id="checkbox1" name="checkbox" type="checkbox"> Choice
+                  A</label></li>
+              <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label></li>
+              <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label></li>
+            </ul>
+          </fieldset>
+          <p><a href="#top">[Top]</a></p>
+          <fieldset id="forms__radio">
+            <legend>Radio buttons</legend>
+            <ul class="list list--bare">
+              <li><label for="radio1"><input checked="checked" class="radio" id="radio1" name="radio" type="radio">
+                  Option 1</label></li>
+              <li><label for="radio2"><input class="radio" id="radio2" name="radio" type="radio"> Option 2</label></li>
+              <li><label for="radio3"><input class="radio" id="radio3" name="radio" type="radio"> Option 3</label></li>
+            </ul>
+          </fieldset>
+          <p><a href="#top">[Top]</a></p>
+          <fieldset id="forms__textareas">
+            <legend>Textareas</legend>
+            <p><label for="textarea">Textarea</label> <textarea cols="48" id="textarea"
+                placeholder="Enter your message here" rows="8"></textarea></p>
+          </fieldset>
+          <p><a href="#top">[Top]</a></p>
+          <fieldset id="forms__html5">
+            <legend>HTML5 inputs</legend>
+            <p><label for="ic">Color input</label> <input id="ic" type="color" value="#000000"></p>
+            <p><label for="in">Number input</label> <input id="in" max="10" min="0" type="number" value="5"></p>
+            <p><label for="ir">Range input</label> <input id="ir" type="range" value="10"></p>
+            <p><label for="idd">Date input</label> <input id="idd" type="date" value="1970-01-01"></p>
+            <p><label for="idm">Month input</label> <input id="idm" type="month" value="1970-01"></p>
+            <p><label for="idw">Week input</label> <input id="idw" type="week" value="1970-W01"></p>
+            <p><label for="idt">Datetime input</label> <input id="idt" type="datetime" value="1970-01-01T00:00:00Z"></p>
+            <p><label for="idtl">Datetime-local input</label> <input id="idtl" type="datetime-local"
+                value="1970-01-01T00:00"></p>
+            <p><label>Image input type</label><br> <input type="image"></p>
+            <p><label>File</label><br> <input type="file"></p>
+            <p><label>Hidden</label><br> <input type="hidden"></p>
+          </fieldset>
+          <p><a href="#top">[Top]</a></p>
+          <fieldset id="forms__action">
+            <legend>Action buttons</legend>
+            <p><input type="submit" value="<input type=submit>"> <input type="button" value="<input type=button>">
+              <input type="reset" value="<input type=reset>"> <input disabled="disabled" type="submit"
+                value="<input disabled>"></p>
+            <p><button type="submit">&lt;button type=submit&gt;</button> <button type="button">&lt;button
+                type=button&gt;</button> <button type="reset">&lt;button type=reset&gt;</button> <button
+                disabled="disabled" type="button">&lt;button disabled&gt;</button></p>
+          </fieldset>
+          <p><a href="#top">[Top]</a></p>
+        </form>
+      </section>
+      <section id="characters-test">
+        <header>
+          <h2>HTML Special Characters</h2>
+        </header>
+        <h2>HTML Reserved Characters</h2>
+        <p>The following special characters are reserved in HTML. That is because these are the characters that make up
+          the HTML language. If you use one of these characters in an article, the browser will try to interpret it as
+          HTML. Therefore, you should use the entity name or entity number when you want to output any of these reserved
+          characters.</p>
+        <table class="reference">
+          <tbody>
+            <tr>
+              <th style="width: 15%;">Character</th>
+              <th style="width: 25%;">Entity Number</th>
+              <th style="width: 25%;">Entity Name</th>
+              <th style="width: 35%;">Description</th>
+            </tr>
+            <tr>
+              <td>"</td>
+              <td>"</td>
+              <td>"</td>
+              <td>quotation mark</td>
+            </tr>
+            <tr>
+              <td>'</td>
+              <td>'</td>
+              <td>'</td>
+              <td>apostrophe&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&amp;</td>
+              <td>&amp;</td>
+              <td>&amp;amp;</td>
+              <td>ampersand</td>
+            </tr>
+            <tr>
+              <td>&lt;</td>
+              <td>&lt;</td>
+              <td>&amp;lt;</td>
+              <td>less-than</td>
+            </tr>
+            <tr>
+              <td>&gt;</td>
+              <td>&gt;</td>
+              <td>&amp;gt;</td>
+              <td>greater-than</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>General HTML Symbols</h2>
+        <table class="reference">
+          <tbody>
+            <tr>
+              <th style="width: 15%;">Character</th>
+              <th style="width: 25%;">HTML Entity Number</th>
+              <th style="width: 25%;">HTML Entity Name</th>
+              <th style="width: 35%;">Description</th>
+            </tr>
+            <tr>
+              <td>Œ</td>
+              <td>Œ</td>
+              <td>&amp;OElig;</td>
+              <td>capital ligature OE</td>
+            </tr>
+            <tr>
+              <td>œ</td>
+              <td>œ</td>
+              <td>&amp;oelig;</td>
+              <td>small ligature oe</td>
+            </tr>
+            <tr>
+              <td>Š</td>
+              <td>Š</td>
+              <td>&amp;Scaron;</td>
+              <td>capital S with caron</td>
+            </tr>
+            <tr>
+              <td>š</td>
+              <td>š</td>
+              <td>&amp;scaron;</td>
+              <td>small S with caron</td>
+            </tr>
+            <tr>
+              <td>Ÿ</td>
+              <td>Ÿ</td>
+              <td>&amp;Yuml;</td>
+              <td>capital Y with diaeres</td>
+            </tr>
+            <tr>
+              <td>ƒ</td>
+              <td>ƒ</td>
+              <td>&amp;fnof;</td>
+              <td>f with hook</td>
+            </tr>
+            <tr>
+              <td>ˆ</td>
+              <td>ˆ</td>
+              <td>&amp;circ;</td>
+              <td>modifier letter circumflex accent</td>
+            </tr>
+            <tr>
+              <td>˜</td>
+              <td>˜</td>
+              <td>&amp;tilde;</td>
+              <td>small tilde</td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> </td>
+              <td>&amp;ensp;</td>
+              <td>en space</td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> </td>
+              <td>&amp;emsp;</td>
+              <td>em space</td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> </td>
+              <td>&amp;thinsp;</td>
+              <td>thin space</td>
+            </tr>
+            <tr>
+              <td>‌</td>
+              <td>‌</td>
+              <td>&amp;zwnj;</td>
+              <td>zero width non-joiner</td>
+            </tr>
+            <tr>
+              <td>‍</td>
+              <td>‍</td>
+              <td>&amp;zwj;</td>
+              <td>zero width joiner</td>
+            </tr>
+            <tr>
+              <td>‎</td>
+              <td>‎</td>
+              <td>&amp;lrm;</td>
+              <td>left-to-right mark</td>
+            </tr>
+            <tr>
+              <td>‏</td>
+              <td>‏</td>
+              <td>&amp;rlm;</td>
+              <td>right-to-left mark</td>
+            </tr>
+            <tr>
+              <td>–</td>
+              <td>–</td>
+              <td>&amp;ndash;</td>
+              <td>en dash</td>
+            </tr>
+            <tr>
+              <td>—</td>
+              <td>—</td>
+              <td>&amp;mdash;</td>
+              <td>em dash</td>
+            </tr>
+            <tr>
+              <td>‘</td>
+              <td>‘</td>
+              <td>&amp;lsquo;</td>
+              <td>left single quotation mark</td>
+            </tr>
+            <tr>
+              <td>’</td>
+              <td>’</td>
+              <td>&amp;rsquo;</td>
+              <td>right single quotation mark</td>
+            </tr>
+            <tr>
+              <td>‚</td>
+              <td>‚</td>
+              <td>&amp;sbquo;</td>
+              <td>single low-9 quotation mark</td>
+            </tr>
+            <tr>
+              <td>“</td>
+              <td>“</td>
+              <td>&amp;ldquo;</td>
+              <td>left double quotation mark</td>
+            </tr>
+            <tr>
+              <td>”</td>
+              <td>”</td>
+              <td>&amp;rdquo;</td>
+              <td>right double quotation mark</td>
+            </tr>
+            <tr>
+              <td>„</td>
+              <td>„</td>
+              <td>&amp;bdquo;</td>
+              <td>double low-9 quotation mark</td>
+            </tr>
+            <tr>
+              <td>†</td>
+              <td>†</td>
+              <td>&amp;dagger;</td>
+              <td>dagger</td>
+            </tr>
+            <tr>
+              <td>‡</td>
+              <td>‡</td>
+              <td>&amp;Dagger;</td>
+              <td>double dagger</td>
+            </tr>
+            <tr>
+              <td>•</td>
+              <td>•</td>
+              <td>&amp;bull;</td>
+              <td>bullet</td>
+            </tr>
+            <tr>
+              <td>…</td>
+              <td>…</td>
+              <td>&amp;hellip;</td>
+              <td>horizontal ellipsis</td>
+            </tr>
+            <tr>
+              <td>‰</td>
+              <td>‰</td>
+              <td>&amp;permil;</td>
+              <td>per mille&nbsp;</td>
+            </tr>
+            <tr>
+              <td>′</td>
+              <td>′</td>
+              <td>&amp;prime;</td>
+              <td>minutes</td>
+            </tr>
+            <tr>
+              <td>″</td>
+              <td>″</td>
+              <td>&amp;Prime;</td>
+              <td>seconds</td>
+            </tr>
+            <tr>
+              <td>‹</td>
+              <td>‹</td>
+              <td>&amp;lsaquo;</td>
+              <td>single left angle quotation</td>
+            </tr>
+            <tr>
+              <td>›</td>
+              <td>›</td>
+              <td>&amp;rsaquo;</td>
+              <td>single right angle quotation</td>
+            </tr>
+            <tr>
+              <td>‾</td>
+              <td>‾</td>
+              <td>&amp;oline;</td>
+              <td>overline</td>
+            </tr>
+            <tr>
+              <td>€</td>
+              <td>€</td>
+              <td>&amp;euro;</td>
+              <td>euro</td>
+            </tr>
+            <tr>
+              <td>™</td>
+              <td>™</td>
+              <td>&amp;trade;</td>
+              <td>trademark</td>
+            </tr>
+            <tr>
+              <td>←</td>
+              <td>←</td>
+              <td>&amp;larr;</td>
+              <td>left arrow</td>
+            </tr>
+            <tr>
+              <td>↑</td>
+              <td>↑</td>
+              <td>&amp;uarr;</td>
+              <td>up arrow</td>
+            </tr>
+            <tr>
+              <td>→</td>
+              <td>→</td>
+              <td>&amp;rarr;</td>
+              <td>right arrow</td>
+            </tr>
+            <tr>
+              <td>↓</td>
+              <td>↓</td>
+              <td>&amp;darr;</td>
+              <td>down arrow</td>
+            </tr>
+            <tr>
+              <td>↔</td>
+              <td>↔</td>
+              <td>&amp;harr;</td>
+              <td>left right arrow</td>
+            </tr>
+            <tr>
+              <td>↵</td>
+              <td>↵</td>
+              <td>&amp;crarr;</td>
+              <td>carriage return arrow</td>
+            </tr>
+            <tr>
+              <td>⌈</td>
+              <td>⌈</td>
+              <td>&amp;lceil;</td>
+              <td>left ceiling</td>
+            </tr>
+            <tr>
+              <td>⌉</td>
+              <td>⌉</td>
+              <td>&amp;rceil;</td>
+              <td>right ceiling</td>
+            </tr>
+            <tr>
+              <td>⌊</td>
+              <td>⌊</td>
+              <td>&amp;lfloor;</td>
+              <td>left floor</td>
+            </tr>
+            <tr>
+              <td>⌋</td>
+              <td>⌋</td>
+              <td>&amp;rfloor;</td>
+              <td>right floor</td>
+            </tr>
+            <tr>
+              <td>◊</td>
+              <td>◊</td>
+              <td>&amp;loz;</td>
+              <td>lozenge</td>
+            </tr>
+            <tr>
+              <td>♠</td>
+              <td>♠</td>
+              <td>&amp;spades;</td>
+              <td>spade</td>
+            </tr>
+            <tr>
+              <td>♣</td>
+              <td>♣</td>
+              <td>&amp;clubs;</td>
+              <td>club</td>
+            </tr>
+            <tr>
+              <td>♥</td>
+              <td>♥</td>
+              <td>&amp;hearts;</td>
+              <td>heart</td>
+            </tr>
+            <tr>
+              <td>♦</td>
+              <td>♦</td>
+              <td>&amp;diams;</td>
+              <td>diamond</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Mathematical Symbols</h2>
+        <table class="reference">
+          <tbody>
+            <tr>
+              <th style="width: 15%;">Symbol</th>
+              <th style="width: 25%;">HTML Entity Number</th>
+              <th style="width: 25%;">HTML Entity Name</th>
+              <th style="width: 35%;">Description</th>
+            </tr>
+            <tr>
+              <td>∀</td>
+              <td>∀</td>
+              <td>&amp;forall;</td>
+              <td>for all</td>
+            </tr>
+            <tr>
+              <td>∂</td>
+              <td>∂</td>
+              <td>&amp;part;</td>
+              <td>part</td>
+            </tr>
+            <tr>
+              <td>∃</td>
+              <td>∃</td>
+              <td>&amp;exist;</td>
+              <td>exists</td>
+            </tr>
+            <tr>
+              <td>∅</td>
+              <td>∅</td>
+              <td>&amp;empty;</td>
+              <td>empty</td>
+            </tr>
+            <tr>
+              <td>∇</td>
+              <td>∇</td>
+              <td>&amp;nabla;</td>
+              <td>nabla</td>
+            </tr>
+            <tr>
+              <td>∈</td>
+              <td>∈</td>
+              <td>&amp;isin;</td>
+              <td>isin</td>
+            </tr>
+            <tr>
+              <td>∉</td>
+              <td>∉</td>
+              <td>&amp;notin;</td>
+              <td>notin</td>
+            </tr>
+            <tr>
+              <td>∋</td>
+              <td>∋</td>
+              <td>&amp;ni;</td>
+              <td>ni</td>
+            </tr>
+            <tr>
+              <td>∏</td>
+              <td>∏</td>
+              <td>&amp;prod;</td>
+              <td>prod</td>
+            </tr>
+            <tr>
+              <td>∑</td>
+              <td>∑</td>
+              <td>&amp;sum;</td>
+              <td>sum</td>
+            </tr>
+            <tr>
+              <td>−</td>
+              <td>−</td>
+              <td>&amp;minus;</td>
+              <td>minus</td>
+            </tr>
+            <tr>
+              <td>∗</td>
+              <td>∗</td>
+              <td>&amp;lowast;</td>
+              <td>lowast</td>
+            </tr>
+            <tr>
+              <td>√</td>
+              <td>√</td>
+              <td>&amp;radic;</td>
+              <td>square root</td>
+            </tr>
+            <tr>
+              <td>∝</td>
+              <td>∝</td>
+              <td>&amp;prop;</td>
+              <td>proportional to</td>
+            </tr>
+            <tr>
+              <td>∞</td>
+              <td>∞</td>
+              <td>&amp;infin;</td>
+              <td>infinity</td>
+            </tr>
+            <tr>
+              <td>∠</td>
+              <td>∠</td>
+              <td>&amp;ang;</td>
+              <td>angle</td>
+            </tr>
+            <tr>
+              <td>∧</td>
+              <td>∧</td>
+              <td>&amp;and;</td>
+              <td>and</td>
+            </tr>
+            <tr>
+              <td>∨</td>
+              <td>∨</td>
+              <td>&amp;or;</td>
+              <td>or</td>
+            </tr>
+            <tr>
+              <td>∩</td>
+              <td>∩</td>
+              <td>&amp;cap;</td>
+              <td>cap</td>
+            </tr>
+            <tr>
+              <td>∪</td>
+              <td>∪</td>
+              <td>&amp;cup;</td>
+              <td>cup</td>
+            </tr>
+            <tr>
+              <td>∫</td>
+              <td>∫</td>
+              <td>&amp;int;</td>
+              <td>integral</td>
+            </tr>
+            <tr>
+              <td>∴</td>
+              <td>∴</td>
+              <td>&amp;there4;</td>
+              <td>therefore</td>
+            </tr>
+            <tr>
+              <td>∼</td>
+              <td>∼</td>
+              <td>&amp;sim;</td>
+              <td>similar to</td>
+            </tr>
+            <tr>
+              <td>≅</td>
+              <td>≅</td>
+              <td>&amp;cong;</td>
+              <td>congruent to</td>
+            </tr>
+            <tr>
+              <td>≈</td>
+              <td>≈</td>
+              <td>&amp;asymp;</td>
+              <td>almost equal</td>
+            </tr>
+            <tr>
+              <td>≠</td>
+              <td>≠</td>
+              <td>&amp;ne;</td>
+              <td>not equal</td>
+            </tr>
+            <tr>
+              <td>≡</td>
+              <td>≡</td>
+              <td>&amp;equiv;</td>
+              <td>equivalent</td>
+            </tr>
+            <tr>
+              <td>≤</td>
+              <td>≤</td>
+              <td>&amp;le;</td>
+              <td>less or equal</td>
+            </tr>
+            <tr>
+              <td>≥</td>
+              <td>≥</td>
+              <td>&amp;ge;</td>
+              <td>greater or equal</td>
+            </tr>
+            <tr>
+              <td>⊂</td>
+              <td>⊂</td>
+              <td>&amp;sub;</td>
+              <td>subset of</td>
+            </tr>
+            <tr>
+              <td>⊃</td>
+              <td>⊃</td>
+              <td>&amp;sup;</td>
+              <td>superset of</td>
+            </tr>
+            <tr>
+              <td>⊄</td>
+              <td>⊄</td>
+              <td>&amp;nsub;</td>
+              <td>not subset of</td>
+            </tr>
+            <tr>
+              <td>⊆</td>
+              <td>⊆</td>
+              <td>&amp;sube;</td>
+              <td>subset or equal</td>
+            </tr>
+            <tr>
+              <td>⊇</td>
+              <td>⊇</td>
+              <td>&amp;supe;</td>
+              <td>superset or equal</td>
+            </tr>
+            <tr>
+              <td>⊕</td>
+              <td>⊕</td>
+              <td>&amp;oplus;</td>
+              <td>circled plus</td>
+            </tr>
+            <tr>
+              <td>⊗</td>
+              <td>⊗</td>
+              <td>&amp;otimes;</td>
+              <td>circled times</td>
+            </tr>
+            <tr>
+              <td>⊥</td>
+              <td>⊥</td>
+              <td>&amp;perp;</td>
+              <td>perpendicular</td>
+            </tr>
+            <tr>
+              <td>⋅</td>
+              <td>⋅</td>
+              <td>&amp;sdot;</td>
+              <td>dot operator</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>ISO 8859-1 Characters</h2>
+        <p>The following table displays ISO 8859-1 characters.</p>
+        <table class="reference">
+          <tbody>
+            <tr>
+              <th style="width: 15%;">Character/Glyph</th>
+              <th style="width: 25%;">HTML Entity Number</th>
+              <th style="width: 25%;">HTML Entity Name</th>
+              <th style="width: 35%;">Description</th>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&amp;nbsp;</td>
+              <td>non-breaking space</td>
+            </tr>
+            <tr>
+              <td>¡</td>
+              <td>¡</td>
+              <td>&amp;iexcl;</td>
+              <td>inverted exclamation mark</td>
+            </tr>
+            <tr>
+              <td>¢</td>
+              <td>¢</td>
+              <td>&amp;cent;</td>
+              <td>cent</td>
+            </tr>
+            <tr>
+              <td>£</td>
+              <td>£</td>
+              <td>&amp;pound;</td>
+              <td>pound</td>
+            </tr>
+            <tr>
+              <td>¤</td>
+              <td>¤</td>
+              <td>&amp;curren;</td>
+              <td>currency</td>
+            </tr>
+            <tr>
+              <td>¥</td>
+              <td>¥</td>
+              <td>&amp;yen;</td>
+              <td>yen</td>
+            </tr>
+            <tr>
+              <td>¦</td>
+              <td>¦</td>
+              <td>&amp;brvbar;</td>
+              <td>broken vertical bar</td>
+            </tr>
+            <tr>
+              <td>§</td>
+              <td>§</td>
+              <td>&amp;sect;</td>
+              <td>section</td>
+            </tr>
+            <tr>
+              <td>¨</td>
+              <td>¨</td>
+              <td>&amp;uml;</td>
+              <td>spacing diaeresis</td>
+            </tr>
+            <tr>
+              <td>©</td>
+              <td>©</td>
+              <td>&amp;copy;</td>
+              <td>copyright</td>
+            </tr>
+            <tr>
+              <td>ª</td>
+              <td>ª</td>
+              <td>&amp;ordf;</td>
+              <td>feminine ordinal indicator</td>
+            </tr>
+            <tr>
+              <td>«</td>
+              <td>«</td>
+              <td>&amp;laquo;</td>
+              <td>angle quotation mark (left)</td>
+            </tr>
+            <tr>
+              <td>¬</td>
+              <td>¬</td>
+              <td>&amp;not;</td>
+              <td>negation</td>
+            </tr>
+            <tr>
+              <td>­</td>
+              <td>­</td>
+              <td>&amp;shy;</td>
+              <td>soft hyphen</td>
+            </tr>
+            <tr>
+              <td>®</td>
+              <td>®</td>
+              <td>&amp;reg;</td>
+              <td>registered trademark</td>
+            </tr>
+            <tr>
+              <td>¯</td>
+              <td>¯</td>
+              <td>&amp;macr;</td>
+              <td>spacing macron</td>
+            </tr>
+            <tr>
+              <td>°</td>
+              <td>°</td>
+              <td>&amp;deg;</td>
+              <td>degree</td>
+            </tr>
+            <tr>
+              <td>±</td>
+              <td>±</td>
+              <td>&amp;plusmn;</td>
+              <td>plus-or-minus&nbsp;</td>
+            </tr>
+            <tr>
+              <td>²</td>
+              <td>²</td>
+              <td>&amp;sup2;</td>
+              <td>superscript 2</td>
+            </tr>
+            <tr>
+              <td>³</td>
+              <td>³</td>
+              <td>&amp;sup3;</td>
+              <td>superscript 3</td>
+            </tr>
+            <tr>
+              <td>´</td>
+              <td>´</td>
+              <td>&amp;acute;</td>
+              <td>spacing acute</td>
+            </tr>
+            <tr>
+              <td>µ</td>
+              <td>µ</td>
+              <td>&amp;micro;</td>
+              <td>micro</td>
+            </tr>
+            <tr>
+              <td>¶</td>
+              <td>¶</td>
+              <td>&amp;para;</td>
+              <td>paragraph</td>
+            </tr>
+            <tr>
+              <td>·</td>
+              <td>·</td>
+              <td>&amp;middot;</td>
+              <td>middle dot</td>
+            </tr>
+            <tr>
+              <td>¸</td>
+              <td>¸</td>
+              <td>&amp;cedil;</td>
+              <td>spacing cedilla</td>
+            </tr>
+            <tr>
+              <td>¹</td>
+              <td>¹</td>
+              <td>&amp;sup1;</td>
+              <td>superscript 1</td>
+            </tr>
+            <tr>
+              <td>º</td>
+              <td>º</td>
+              <td>&amp;ordm;</td>
+              <td>masculine ordinal indicator</td>
+            </tr>
+            <tr>
+              <td>»</td>
+              <td>»</td>
+              <td>&amp;raquo;</td>
+              <td>angle quotation mark (right)</td>
+            </tr>
+            <tr>
+              <td>¼</td>
+              <td>¼</td>
+              <td>&amp;frac14;</td>
+              <td>fraction 1/4</td>
+            </tr>
+            <tr>
+              <td>½</td>
+              <td>½</td>
+              <td>&amp;frac12;</td>
+              <td>fraction 1/2</td>
+            </tr>
+            <tr>
+              <td>¾</td>
+              <td>¾</td>
+              <td>&amp;frac34;</td>
+              <td>fraction 3/4</td>
+            </tr>
+            <tr>
+              <td>¿</td>
+              <td>¿</td>
+              <td>&amp;iquest;</td>
+              <td>inverted question mark</td>
+            </tr>
+            <tr>
+              <td>×</td>
+              <td>×</td>
+              <td>&amp;times;</td>
+              <td>multiplication</td>
+            </tr>
+            <tr>
+              <td>÷</td>
+              <td>÷</td>
+              <td>&amp;divide;</td>
+              <td>division</td>
+            </tr>
+            <tr>
+              <td>À</td>
+              <td>À</td>
+              <td>&amp;Agrave;</td>
+              <td>capital a, grave accent</td>
+            </tr>
+            <tr>
+              <td>Á</td>
+              <td>Á</td>
+              <td>&amp;Aacute;</td>
+              <td>capital a, acute accent</td>
+            </tr>
+            <tr>
+              <td>Â</td>
+              <td>Â</td>
+              <td>&amp;Acirc;</td>
+              <td>capital a, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>Ã</td>
+              <td>Ã</td>
+              <td>&amp;Atilde;</td>
+              <td>capital a, tilde</td>
+            </tr>
+            <tr>
+              <td>Ä</td>
+              <td>Ä</td>
+              <td>&amp;Auml;</td>
+              <td>capital a, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>Å</td>
+              <td>Å</td>
+              <td>&amp;Aring;</td>
+              <td>capital a, ring</td>
+            </tr>
+            <tr>
+              <td>Æ</td>
+              <td>Æ</td>
+              <td>&amp;AElig;</td>
+              <td>capital ae</td>
+            </tr>
+            <tr>
+              <td>Ç</td>
+              <td>Ç</td>
+              <td>&amp;Ccedil;</td>
+              <td>capital c, cedilla</td>
+            </tr>
+            <tr>
+              <td>È</td>
+              <td>È</td>
+              <td>&amp;Egrave;</td>
+              <td>capital e, grave accent</td>
+            </tr>
+            <tr>
+              <td>É</td>
+              <td>É</td>
+              <td>&amp;Eacute;</td>
+              <td>capital e, acute accent</td>
+            </tr>
+            <tr>
+              <td>Ê</td>
+              <td>Ê</td>
+              <td>&amp;Ecirc;</td>
+              <td>capital e, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>Ë</td>
+              <td>Ë</td>
+              <td>&amp;Euml;</td>
+              <td>capital e, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>Ì</td>
+              <td>Ì</td>
+              <td>&amp;Igrave;</td>
+              <td>capital i, grave accent</td>
+            </tr>
+            <tr>
+              <td>Í</td>
+              <td>Í</td>
+              <td>&amp;Iacute;</td>
+              <td>capital i, acute accent</td>
+            </tr>
+            <tr>
+              <td>Î</td>
+              <td>Î</td>
+              <td>&amp;Icirc;</td>
+              <td>capital i, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>Ï</td>
+              <td>Ï</td>
+              <td>&amp;Iuml;</td>
+              <td>capital i, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>Ð</td>
+              <td>Ð</td>
+              <td>&amp;ETH;</td>
+              <td>capital eth, Icelandic</td>
+            </tr>
+            <tr>
+              <td>Ñ</td>
+              <td>Ñ</td>
+              <td>&amp;Ntilde;</td>
+              <td>capital n, tilde</td>
+            </tr>
+            <tr>
+              <td>Ò</td>
+              <td>Ò</td>
+              <td>&amp;Ograve;</td>
+              <td>capital o, grave accent</td>
+            </tr>
+            <tr>
+              <td>Ó</td>
+              <td>Ó</td>
+              <td>&amp;Oacute;</td>
+              <td>capital o, acute accent</td>
+            </tr>
+            <tr>
+              <td>Ô</td>
+              <td>Ô</td>
+              <td>&amp;Ocirc;</td>
+              <td>capital o, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>Õ</td>
+              <td>Õ</td>
+              <td>&amp;Otilde;</td>
+              <td>capital o, tilde</td>
+            </tr>
+            <tr>
+              <td>Ö</td>
+              <td>Ö</td>
+              <td>&amp;Ouml;</td>
+              <td>capital o, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>Ø</td>
+              <td>Ø</td>
+              <td>&amp;Oslash;</td>
+              <td>capital o, slash</td>
+            </tr>
+            <tr>
+              <td>Ù</td>
+              <td>Ù</td>
+              <td>&amp;Ugrave;</td>
+              <td>capital u, grave accent</td>
+            </tr>
+            <tr>
+              <td>Ú</td>
+              <td>Ú</td>
+              <td>&amp;Uacute;</td>
+              <td>capital u, acute accent</td>
+            </tr>
+            <tr>
+              <td>Û</td>
+              <td>Û</td>
+              <td>&amp;Ucirc;</td>
+              <td>capital u, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>Ü</td>
+              <td>Ü</td>
+              <td>&amp;Uuml;</td>
+              <td>capital u, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>Ý</td>
+              <td>Ý</td>
+              <td>&amp;Yacute;</td>
+              <td>capital y, acute accent</td>
+            </tr>
+            <tr>
+              <td>Þ</td>
+              <td>Þ</td>
+              <td>&amp;THORN;</td>
+              <td>capital THORN, Icelandic</td>
+            </tr>
+            <tr>
+              <td>ß</td>
+              <td>ß</td>
+              <td>&amp;szlig;</td>
+              <td>small sharp s, German</td>
+            </tr>
+            <tr>
+              <td>à</td>
+              <td>à</td>
+              <td>&amp;agrave;</td>
+              <td>small a, grave accent</td>
+            </tr>
+            <tr>
+              <td>á</td>
+              <td>á</td>
+              <td>&amp;aacute;</td>
+              <td>small a, acute accent</td>
+            </tr>
+            <tr>
+              <td>â</td>
+              <td>â</td>
+              <td>&amp;acirc;</td>
+              <td>small a, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>ã</td>
+              <td>ã</td>
+              <td>&amp;atilde;</td>
+              <td>small a, tilde</td>
+            </tr>
+            <tr>
+              <td>ä</td>
+              <td>ä</td>
+              <td>&amp;auml;</td>
+              <td>small a, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>å</td>
+              <td>å</td>
+              <td>&amp;aring;</td>
+              <td>small a, ring</td>
+            </tr>
+            <tr>
+              <td>æ</td>
+              <td>æ</td>
+              <td>&amp;aelig;</td>
+              <td>small ae</td>
+            </tr>
+            <tr>
+              <td>ç</td>
+              <td>ç</td>
+              <td>&amp;ccedil;</td>
+              <td>small c, cedilla</td>
+            </tr>
+            <tr>
+              <td>è</td>
+              <td>è</td>
+              <td>&amp;egrave;</td>
+              <td>small e, grave accent</td>
+            </tr>
+            <tr>
+              <td>é</td>
+              <td>é</td>
+              <td>&amp;eacute;</td>
+              <td>small e, acute accent</td>
+            </tr>
+            <tr>
+              <td>ê</td>
+              <td>ê</td>
+              <td>&amp;ecirc;</td>
+              <td>small e, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>ë</td>
+              <td>ë</td>
+              <td>&amp;euml;</td>
+              <td>small e, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>ì</td>
+              <td>ì</td>
+              <td>&amp;igrave;</td>
+              <td>small i, grave accent</td>
+            </tr>
+            <tr>
+              <td>í</td>
+              <td>í</td>
+              <td>&amp;iacute;</td>
+              <td>small i, acute accent</td>
+            </tr>
+            <tr>
+              <td>î</td>
+              <td>î</td>
+              <td>&amp;icirc;</td>
+              <td>small i, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>ï</td>
+              <td>ï</td>
+              <td>&amp;iuml;</td>
+              <td>small i, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>ð</td>
+              <td>ð</td>
+              <td>&amp;eth;</td>
+              <td>small eth, Icelandic</td>
+            </tr>
+            <tr>
+              <td>ñ</td>
+              <td>ñ</td>
+              <td>&amp;ntilde;</td>
+              <td>small n, tilde</td>
+            </tr>
+            <tr>
+              <td>ò</td>
+              <td>ò</td>
+              <td>&amp;ograve;</td>
+              <td>small o, grave accent</td>
+            </tr>
+            <tr>
+              <td>ó</td>
+              <td>ó</td>
+              <td>&amp;oacute;</td>
+              <td>small o, acute accent</td>
+            </tr>
+            <tr>
+              <td>ô</td>
+              <td>ô</td>
+              <td>&amp;ocirc;</td>
+              <td>small o, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>õ</td>
+              <td>õ</td>
+              <td>&amp;otilde;</td>
+              <td>small o, tilde</td>
+            </tr>
+            <tr>
+              <td>ö</td>
+              <td>ö</td>
+              <td>&amp;ouml;</td>
+              <td>small o, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>ø</td>
+              <td>ø</td>
+              <td>&amp;oslash;</td>
+              <td>small o, slash</td>
+            </tr>
+            <tr>
+              <td>ù</td>
+              <td>ù</td>
+              <td>&amp;ugrave;</td>
+              <td>small u, grave accent</td>
+            </tr>
+            <tr>
+              <td>ú</td>
+              <td>ú</td>
+              <td>&amp;uacute;</td>
+              <td>small u, acute accent</td>
+            </tr>
+            <tr>
+              <td>û</td>
+              <td>û</td>
+              <td>&amp;ucirc;</td>
+              <td>small u, circumflex accent</td>
+            </tr>
+            <tr>
+              <td>ü</td>
+              <td>ü</td>
+              <td>&amp;uuml;</td>
+              <td>small u, umlaut mark</td>
+            </tr>
+            <tr>
+              <td>ý</td>
+              <td>ý</td>
+              <td>&amp;yacute;</td>
+              <td>small y, acute accent</td>
+            </tr>
+            <tr>
+              <td>þ</td>
+              <td>þ</td>
+              <td>&amp;thorn;</td>
+              <td>small thorn, Icelandic</td>
+            </tr>
+            <tr>
+              <td>ÿ</td>
+              <td>ÿ</td>
+              <td>&amp;yuml;</td>
+              <td>small y, umlaut mark</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><a href="#top">[Top]</a></p>
+      </section>
+      <p>Based on markup made by <a href="https://twitter.com/cbracco">@cbracco</a>. Original on <a
+          href="https://github.com/cbracco/html5-test-page">GitHub</a>, test pages at
+        https://www.wvc.edu/_resources/clutter/zz-test/_testing/test.aspx,
+        https://www.html.am/reference/html-special-characters.cfm and elsewhere.</p>
+      <p>Markup examples also from 
+        <a href="https://github.com/dbox/html5-kitchen-sink">https://github.com/dbox/html5-kitchen-sink</a>
+      </p>
+    </div>
+
+  </main>
+  <footer role="contentinfo">
+    <p>Find this document on <a href="https://github.com/jeremytarpley/html-test/">GitHub</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
